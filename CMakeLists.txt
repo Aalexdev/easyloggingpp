@@ -25,6 +25,8 @@ option(test "Build all tests" OFF)
 option(build_static_lib "Build easyloggingpp as a static library" OFF)
 option(lib_utc_datetime "Build library with UTC date/time logging" OFF)
 
+set(build_static_lib ON)
+
 set(ELPP_MAJOR_VERSION "9")
 set(ELPP_MINOR_VERSION "96")
 set(ELPP_PATCH_VERSION "7")
